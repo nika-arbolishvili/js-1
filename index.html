@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = Number(prompt('first number'));
+        let b = Number(prompt('second number'));
+        let c = Number(prompt('third number'));
+        if (a === c && a === b)
+            alert('These numbers are equal')
+        else if (a > b && a > c) {
+            alert('max is' + a)
+        } else if (b > a && b > c) {
+            alert('max is ' + b)
+        } else {
+            alert('max is ' + c);
+        }
+        let number = a % 2 && b % 2 && c % 2;
+        if (number === 0) {
+            alert('es ricxvi luwia');
+        } else {
+            alert('es ricxvi kentia');
+        }
+        let n = 1024;
+        let firstnumber = Math.floor(n / 1024);
+        let secondnumber = (n % 1000);
+        let sum = firstnumber + secondnumber
+        alert(sum);
+        let t = 1090;
+        t = t.toString();
+        let Result = Number(t[0]) + Number(t[1]) + Number(t[2]) + Number(t[3]);
+        alert(Result);
+    </script>
+</body>
+
+</html>
